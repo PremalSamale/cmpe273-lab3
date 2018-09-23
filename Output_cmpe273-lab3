@@ -1,0 +1,21 @@
+premal@premal-Lenovo-Y40-70:~/grpc/examples/273-UDP$ python3 connected_udp_server.py
+Datagram b'Client:HelloWorld' received
+
+--------------------------------------------------------------------------
+
+premal@premal-Lenovo-Y40-70:~/grpc/examples/273-UDP$ python3 connected_udp_client.py
+now we can only send to host 127.0.0.1 port 5000
+Datagram b'Server: Hello World' received from ('127.0.0.1', 5000)
+
+-------------------------------------------------------------------------
+
+/usr/bin/python3.5 /home/premal/grpc/examples/273-UDP/multicast_udp_server.py
+Datagram b'Client:Hello World' received from ('192.168.0.17', 10000)
+
+-------------------------------------------------------------------------
+
+/usr/bin/python3.5 /home/premal/grpc/examples/273-UDP/multicast_udp_client.py
+Datagram b'Client:Hello World' received from ('192.168.0.17', 10000)
+Datagram b'Server: Hello World' received from ('192.168.0.17', 10000)
+
+--------------------------------------------------------------------------
