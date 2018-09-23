@@ -1,6 +1,7 @@
 ### cmpe273-lab3 
-### Descrition: Implement sending "Hello World" from client to server via UDP using Twisted Lib. 
 ### SJSU ID:0122566333 (Premal Dattatray Samale)
+### Descrition: Implement sending "Hello World" from client to server via UDP using Twisted Lib.Answer to this question: "What happened when you send message from client in Multicast UDP when server is not available?" 
+
 
 
 Requirement :Twisted lib.
